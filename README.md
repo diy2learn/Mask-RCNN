@@ -33,3 +33,6 @@ x
 ## A brief history<a name='history'/>
 ![Snap comparision](./images/rcnns_comaprision.png)
 
+## References  
+https://ardianumam.wordpress.com/2017/12/16/understanding-how-mask-rcnn-works-for-semactic-segmentation/  
+https://www.youtube.com/watch?v=cSO1nUj495Y&t=90s  
