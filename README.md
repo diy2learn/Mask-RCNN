@@ -1,7 +1,7 @@
 # Mask-RCNN
 A collection of notes, code snips for Mask-RCNN
 Ado
-##### **Outline**  
+##### Outline
 [Basics related concepts](#basic_concepts)
 [A brief history](#history)
 xxx
