@@ -22,12 +22,7 @@ x
 
 ## Basics concepts<a name='basic_concepts'/>
 
-##### Table of Contents  
-[Headers](#headers)  
-[Emphasis](#emphasis)  
-...snip...    
-<a name="headers"/>
-## Headers
+
 
 
 
@@ -36,3 +31,5 @@ x
 
 
 ## A brief history<a name='history'/>
+![Snap comparision](./images/rcnns_comaprision.png)
+
