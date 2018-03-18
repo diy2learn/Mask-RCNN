@@ -21,7 +21,9 @@ x
 x
 
 ## Basics concepts<a name='basic_concepts'/>
-
+### Pytorch  
+We will you Pytorch for implementation of our Mask-RCNN, thus if you are newbie, the following tutorials might be helpfull for you to start.
+  * This tutor discribes very well how to make a FCN network in Pytorch and apply for MNIST [link](http://adventuresinmachinelearning.com/pytorch-tutorial-deep-learning/)
 
 
 
