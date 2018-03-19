@@ -27,8 +27,9 @@ Grouping pixels into regions based on the similarity. The metric for similarity 
 
 ### Bounding box regressor <a name='bbox_reg'>
 Using NN or SVM with the input is the extracted feature to regress the bounding box(BB) around ROI to make the more precise (localize more
-precise around object).
+precise around object). [This](https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/object_localization_and_detection.html) blog explained very well what is BBox regressor and how to do the regression.
 ![e.g. Bounding box in a R-CNN](./asses/images/BBox_reg.png)
+[picture credit](Bastian Leibe,Ross Girshick)
 
 
 
