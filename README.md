@@ -31,6 +31,11 @@ precise around object). [This](https://leonardoaraujosantos.gitbooks.io/artifici
 ![e.g. Bounding box in a R-CNN](./asses/images/BBox_reg.png)
 [picture credit](Bastian Leibe,Ross Girshick)
 
+### ROI-pooling and ROI-align
+in fast-RCNN, ROIs with different sizes were projected to the feature map (last ConvNet layer). To garantee that the input size for the next FC layer will be the same for all of the ROIs (with different sizes), a ROI-pooling was use. Briefly, it will devide the feature map (of size w x h) into a grid of fixed size (W x H). so for each image, a max-pooling operation with kernel size ([w/W] x [h/H], if stripe = 1) will be applied. This was explained well [here](https://blog.deepsense.ai/region-of-interest-pooling-explained/)
+This operation make mis-alignment due to the rounding of w/W or h/H. A direct mapping without rounding was used in ROI-align. For example,
+if we have a ROI with size (5,7) and we will use a grid in ROI-pooling of (2,2). We will devide this ROI into 4 sub ROIs with size:
+(2,3),(2,4);(3,3),(3,4). Then, max-pooling value in each sub-ROI. Now for ROI-align, we will not need to devide (and round) the ROI into this different size sub-ROI. We will interpolate value at 2.5 and 3.5, thus each sub-ROI will be the same size, and thus the final bounding box will not be mis-aligned.
 
 
 
